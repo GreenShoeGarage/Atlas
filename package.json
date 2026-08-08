@@ -1,0 +1,14 @@
+{
+  "name": "atlas-field-instrument",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ATLAS browser-first reverse engineering Field Instrument and optional localhost debugger bridge",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "bridge": "node atlas-bridge.js --app atlas-v1.0.0.html",
+    "bridge:probe": "node atlas-bridge.js --probe",
+    "bridge:self-test": "node atlas-bridge.js --self-test"
+  }
+}
